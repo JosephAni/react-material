@@ -3,10 +3,10 @@ import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
 import TypoGraphy from '@material-ui/core/Typography'
-// import ListItemIcon from '@material-ui/core/ListItemIcon'
+// import ListItemIcon from '@material-ui/ListItemIcon'
 import { Home, Book, AccountBox } from '@material-ui/icons'
 
-function NavBar(props) {
+function NavBar(_props) {
   return (
     <List component='nav'>
       <ListItem component='div'>

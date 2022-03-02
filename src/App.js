@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import TypoGraphy from '@material-ui/core/Typography'
+import NavBar from './navbar'
+import Contacts from './contact'
 
 class App extends Component {
   render() {
@@ -10,7 +12,8 @@ class App extends Component {
         <AppBar color='primary' position='static'>
           <Toolbar>
             <TypoGraphy variant='title' color='inherit'>
-              My header
+              <NavBar />
+              <Contacts />
             </TypoGraphy>
           </Toolbar>
         </AppBar>
