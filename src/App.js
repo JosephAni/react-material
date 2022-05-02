@@ -3,8 +3,7 @@ import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import TypoGraphy from '@material-ui/core/Typography'
 import NavBar from './navbar'
-import Contacts from './contact'
-
+import Contact from './contact'
 class App extends Component {
   render() {
     return (
@@ -13,7 +12,7 @@ class App extends Component {
           <Toolbar>
             <TypoGraphy variant='title' color='inherit'>
               <NavBar />
-              <Contacts />
+              <Contact />
             </TypoGraphy>
           </Toolbar>
         </AppBar>
